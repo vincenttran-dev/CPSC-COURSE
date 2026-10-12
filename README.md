@@ -2,17 +2,15 @@
 
 **University of Calgary | BSc in Computer Science**
 
-This repository documents my progress through Computer Science coursework at the University of Calgary. It contains personal study notes, independent programming exercises, and original projects that demonstrate my learning and problem-solving skills.
+This repository documents my progress through Computer Science coursework at the University of Calgary. It contains personal study notes, demonstration programs, and assignment-related materials that may be shared publicly.
 
 ## Course Directory
 
-| Course | Semester | Status |
-| --- | --- | --- |
-| [CPSC 231](./CPSC231/) | Fall 2026 | In progress |
-| [CPSC 233](./CPSC233/) | TBD | Planned |
-| [CPSC 251](./CPSC251/) | TBD | Planned |
-
-Course statuses and materials will be updated as my degree progresses.
+| Course | Semester | Status | Notes and Demos | Assignments |
+| --- | --- | --- | --- | --- |
+| [CPSC 231](./CPSC231/) | Fall 2026 | In progress | [Browse](./CPSC231/notes-and-demos/) | [Browse](./CPSC231/assignments/) |
+| [CPSC 233](./CPSC233/) | TBD | Planned | [Browse](./CPSC233/notes-and-demos/) | [Browse](./CPSC233/assignments/) |
+| [CPSC 251](./CPSC251/) | TBD | Planned | [Browse](./CPSC251/notes-and-demos/) | [Browse](./CPSC251/assignments/) |
 
 ## Repository Organization
 
@@ -21,22 +19,30 @@ CPSC-COURSE/
 ├── README.md
 ├── CPSC231/
 │   ├── README.md
-│   ├── notes/
-│   ├── practice/
-│   ├── projects/
-│   └── resources/
+│   ├── notes-and-demos/
+│   │   └── README.md
+│   └── assignments/
+│       └── README.md
 ├── CPSC233/
-│   └── README.md
+│   ├── README.md
+│   ├── notes-and-demos/
+│   │   └── README.md
+│   └── assignments/
+│       └── README.md
 └── CPSC251/
-    └── README.md
+    ├── README.md
+    ├── notes-and-demos/
+    │   └── README.md
+    └── assignments/
+        └── README.md
 ```
 
-Each course README describes the materials available and can be expanded as I study that course. The CPSC 231 directory is organized into:
+Every course follows the same two-category structure:
 
-- **notes:** Original explanations and topic summaries.
-- **practice:** Independently created programming exercises.
-- **projects:** Personal programs and work approved for public sharing.
-- **resources:** Public reference links and learning resources.
+- **Notes and Demos:** Personal study notes, illustrative code, independent programming practice, and concept demos.
+- **Assignments:** Assignment checklists, reflections, and materials approved for public sharing. Individual assignment folders can be created as needed.
+
+Each course has a README to track its progress and relevant topics.
 
 ## Skills and Technologies
 
@@ -44,11 +50,11 @@ Each course README describes the materials available and can be expanded as I st
 - **Tools:** Git, GitHub, VS Code, Python IDLE
 - **Concepts:** Programming fundamentals, debugging, algorithmic thinking, and problem-solving
 
-This list will grow with my coursework.
+These sections will evolve throughout my studies.
 
 ## Academic Integrity
 
-This repository is for documenting personal learning and portfolio development. I will respect University of Calgary academic integrity policies, instructor rules, and copyright restrictions. Active graded assignment solutions, examinations, and restricted course materials will not be posted without explicit authorization.
+This repository is public and intended for personal learning documentation. I will follow University of Calgary academic integrity policies, instructor instructions, and copyright restrictions. Restricted assignment solutions, exams, and course material will not be posted without permission. Sensitive assignment work will be stored privately.
 
 ## Author
 
