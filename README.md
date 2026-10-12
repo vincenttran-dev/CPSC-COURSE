@@ -1,60 +1,59 @@
-# CPSC-COURSE
-Computer Science Coursework
+# Computer Science Coursework
 
-University of Calgary | BSc in Computer Science
+**University of Calgary | BSc in Computer Science**
 
-Welcome to my Computer Science coursework repository!
+This repository documents my progress through Computer Science coursework at the University of Calgary. It contains personal study notes, independent programming exercises, and original projects that demonstrate my learning and problem-solving skills.
 
-This repository documents my academic journey at the University of Calgary, including programming exercises, personal study notes, practical projects, and concepts explored throughout my degree.
+## Course Directory
 
-Its purpose is to track my learning progress, organize technical knowledge, and demonstrate the development of my programming and problem-solving skills.
+| Course | Semester | Status |
+| --- | --- | --- |
+| [CPSC 231](./CPSC231/) | Fall 2026 | In progress |
+| [CPSC 233](./CPSC233/) | TBD | Planned |
+| [CPSC 251](./CPSC251/) | TBD | Planned |
 
-Course Directory
+Course statuses and materials will be updated as my degree progresses.
 
-Course	Semester	Status
-CPSC 231	Fall 2026	In Progress
-CPSC 233	TBD	Planned
-CPSC 251	TBD	Planned
+## Repository Organization
 
-Course statuses will be updated as I progress through my degree.
+```text
+CPSC-COURSE/
+├── README.md
+├── CPSC231/
+│   ├── README.md
+│   ├── notes/
+│   ├── practice/
+│   ├── projects/
+│   └── resources/
+├── CPSC233/
+│   └── README.md
+└── CPSC251/
+    └── README.md
+```
 
-Repository Organization
+Each course README describes the materials available and can be expanded as I study that course. The CPSC 231 directory is organized into:
 
-Each course directory may contain:
+- **notes:** Original explanations and topic summaries.
+- **practice:** Independently created programming exercises.
+- **projects:** Personal programs and work approved for public sharing.
+- **resources:** Public reference links and learning resources.
 
-* Notes: Summaries of lectures, key concepts, and explanations.
-* Practice: Independent programming exercises and problem-solving practice.
-* Projects: Personal projects and coursework permitted for public sharing.
-* Resources: References, documentation, and additional learning materials.
+## Skills and Technologies
 
-Each course will have its own README describing its learning objectives, covered topics, and relevant work.
+- **Programming:** Python
+- **Tools:** Git, GitHub, VS Code, Python IDLE
+- **Concepts:** Programming fundamentals, debugging, algorithmic thinking, and problem-solving
 
-Skills & Technologies
+This list will grow with my coursework.
 
-Programming Languages: Python
+## Academic Integrity
 
-Development Tools: Git, GitHub, VS Code, Python IDLE
+This repository is for documenting personal learning and portfolio development. I will respect University of Calgary academic integrity policies, instructor rules, and copyright restrictions. Active graded assignment solutions, examinations, and restricted course materials will not be posted without explicit authorization.
 
-Core Concepts: Programming fundamentals, algorithmic thinking, debugging, and problem-solving.
+## Author
 
-This section will evolve as I learn new technologies and complete additional courses.
-
-Learning Progress
-
-This repository is maintained throughout my undergraduate studies. Materials may be updated or reorganized to reflect improved understanding, new concepts, and more effective programming practices.
-
-Academic Integrity
-
-This repository is intended for educational documentation and personal portfolio development.
-
-All shared work must comply with the University of Calgary’s academic integrity policies and applicable course-specific instructions. Restricted assignment solutions, examinations, and copyrighted course materials will not be published without authorization.
-
-Author
-
-Vincent Tran
-
-BSc Computer Science
-
+**Vincent Tran**  
+BSc in Computer Science  
 University of Calgary, Canada
 
-GitHub
+[GitHub profile](https://github.com/vincenttran-dev)
