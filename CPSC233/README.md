@@ -2,6 +2,13 @@
 
 **University of Calgary | Planned**
 
-A placeholder for my future CPSC 233 learning materials.
+This folder is reserved for future CPSC 233 coursework.
 
-When I begin the course, I will add my own notes, independent exercises, and permitted projects here.
+## Contents
+
+| Folder | Purpose |
+| --- | --- |
+| [Notes and Demos](./notes-and-demos/) | Personal explanations and independent code demonstrations |
+| [Assignments](./assignments/) | Assignment tracking and materials permitted for public sharing |
+
+Course information and topics will be added when I begin this course. Restricted assignment solutions stay private.
