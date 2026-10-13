@@ -1,12 +1,12 @@
-# Notes and Demos | CPSC 233
+# CPSC 233 Notes and Demos
 
-This folder contains my personal study notes, demonstrations, and independent practice created while learning this course.
+Study notes written in my own words, short example programs, and ungraded practice.
 
-## What belongs here
+## Contents
 
-- Explanations and concept summaries written in my own words.
-- Small example programs and demonstrations.
-- Practice exercises and experiments not submitted for grades.
-- Links to openly available references where useful.
+_Nothing here yet._
 
-Use descriptive filenames such as `loops-demo.py` or `functions-notes.md`. Only include content that may be shared publicly.
+## Naming
+
+- Notes: `<topic>-notes.md`, e.g. `loops-notes.md`
+- Demos: `<topic>_demo.py`, e.g. `loops_demo.py`

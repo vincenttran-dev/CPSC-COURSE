@@ -1,25 +1,30 @@
-# CPSC 231 | Introduction to Computer Science I
+# CPSC 231: Introduction to Computer Science for Computer Science Majors I
 
-**University of Calgary | Fall 2026 | In progress**
+**University of Calgary · Fall 2026 · In progress**
 
-This folder tracks my progress in CPSC 231 through notes, programming demonstrations, and permitted assignment-related documentation.
+Introductory programming in Python 3: reading input, producing output, variables and expressions, control flow, functions, and program design.
 
 ## Contents
 
-| Folder | Purpose |
+| Folder | Contents |
 | --- | --- |
-| [Notes and Demos](./notes-and-demos/) | Personal notes, example code, practice, and independent projects |
-| [Assignments](./assignments/) | Assignment organization, checklists, reflections, and permitted files |
+| [`notes-and-demos/`](./notes-and-demos/) | Concept notes, example programs, and ungraded practice |
+| [`assignments/`](./assignments/) | Completed assignments, one folder each |
 
-## Topics I am studying
+## Assignments
 
-- Python fundamentals
-- Variables, data types, and expressions
-- Conditionals and loops
-- Functions, program design, and debugging
+| # | Title | Concepts | Due |
+| --- | --- | --- | --- |
+| 1 | [Chart Drawing](./assignments/assignment-01/) | Input and output, variables, constants, an external graphics library | Oct 1, 2026 |
 
-Topics and examples will be updated as I progress.
+## Topics
 
-## Academic integrity
+- [x] Input, output, variables, and expressions
+- [x] Using an external library (`SimpleGraphics`)
+- [ ] Conditionals and loops
+- [ ] Functions and program design
+- [ ] Debugging and testing
 
-This public repository excludes restricted graded solutions and instructor materials unless public sharing is explicitly allowed.
+## Academic Integrity
+
+Assignment code is published after the due date as a record of my own work. Current CPSC 231 students must not copy or submit it.

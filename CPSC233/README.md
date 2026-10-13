@@ -1,14 +1,12 @@
-# CPSC 233
+# CPSC 233: Introduction to Computer Science for Computer Science Majors II
 
-**University of Calgary | Planned**
-
-This folder is reserved for future CPSC 233 coursework.
+**University of Calgary · Planned**
 
 ## Contents
 
-| Folder | Purpose |
+| Folder | Contents |
 | --- | --- |
-| [Notes and Demos](./notes-and-demos/) | Personal explanations and independent code demonstrations |
-| [Assignments](./assignments/) | Assignment tracking and materials permitted for public sharing |
+| [`notes-and-demos/`](./notes-and-demos/) | Concept notes, example programs, and ungraded practice |
+| [`assignments/`](./assignments/) | Completed assignments, one folder each |
 
-Course information and topics will be added when I begin this course. Restricted assignment solutions stay private.
+Course details will be added when the course begins.
