@@ -9,13 +9,23 @@ Introductory programming in Python 3: reading input, producing output, variables
 | Folder | Contents |
 | --- | --- |
 | [`notes-and-demos/`](./notes-and-demos/) | Concept notes, example programs, and ungraded practice |
-| [`assignments/`](./assignments/) | Completed assignments, one folder each |
+| [`assignments/`](./assignments/) | Assignment specifications and work, one folder each |
+
+## Course Outline
+
+- [Original course outline (PDF)](./course-outline.pdf)
+- [Assessment and policy summary](./course-outline.md)
 
 ## Assignments
 
 | # | Title | Concepts | Due |
 | --- | --- | --- | --- |
 | 1 | [Chart Drawing](./assignments/assignment-01/) | Input and output, variables, constants, an external graphics library | Oct 1, 2026 |
+| 2 | [Multiple Charts](./assignments/assignment-02/) | Conditionals, loops, pie and bar charts | Oct 15, 2026 at 23:59 |
+| 3 | [Assignment 3](./assignments/assignment-03/) | Awaiting detailed specification | Nov 5, 2026* |
+| 4 | [Assignment 4](./assignments/assignment-04/) | Awaiting detailed specification | Nov 26, 2026* |
+
+*The outline prints 2006 for assignment dates despite being a Fall 2026 document. Dates for Assignments 3 and 4 use a provisional interpretation of 2026; confirm in D2L.
 
 ## Topics
 
