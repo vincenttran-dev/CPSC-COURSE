@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Course library (distributed on D2L, not redistributed here)
+SimpleGraphics.py
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

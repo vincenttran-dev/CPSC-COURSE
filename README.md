@@ -1,18 +1,20 @@
 # Computer Science Coursework
 
-**University of Calgary | BSc in Computer Science**
+![University of Calgary](https://img.shields.io/badge/University%20of%20Calgary-BSc%20Computer%20Science-C8102E)
+![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/status-in%20progress-2EA44F)
 
-This repository documents my progress through Computer Science coursework at the University of Calgary. It contains personal study notes, demonstration programs, and assignment-related materials that may be shared publicly.
+A structured record of my Computer Science coursework at the University of Calgary: study notes, small demonstration programs, and completed assignments.
 
-## Course Directory
+## Courses
 
-| Course | Semester | Status | Notes and Demos | Assignments |
-| --- | --- | --- | --- | --- |
-| [CPSC 231](./CPSC231/) | Fall 2026 | In progress | [Browse](./CPSC231/notes-and-demos/) | [Browse](./CPSC231/assignments/) |
-| [CPSC 233](./CPSC233/) | TBD | Planned | [Browse](./CPSC233/notes-and-demos/) | [Browse](./CPSC233/assignments/) |
-| [CPSC 251](./CPSC251/) | TBD | Planned | [Browse](./CPSC251/notes-and-demos/) | [Browse](./CPSC251/assignments/) |
+| Course | Title | Term | Status |
+| --- | --- | --- | --- |
+| [CPSC 231](./CPSC231/) | Introduction to Computer Science for Computer Science Majors I | Fall 2026 | In progress |
+| [CPSC 233](./CPSC233/) | Introduction to Computer Science for Computer Science Majors II | TBD | Planned |
+| [CPSC 251](./CPSC251/) | Theoretical Foundations of Computer Science I | TBD | Planned |
 
-## Repository Organization
+## Repository Structure
 
 ```text
 CPSC-COURSE/
@@ -20,46 +22,58 @@ CPSC-COURSE/
 ├── CPSC231/
 │   ├── README.md
 │   ├── notes-and-demos/
-│   │   └── README.md
 │   └── assignments/
-│       └── README.md
+│       ├── README.md
+│       └── assignment-01/
+│           ├── README.md
+│           ├── bar_chart.py
+│           └── specification.pdf
 ├── CPSC233/
-│   ├── README.md
 │   ├── notes-and-demos/
-│   │   └── README.md
 │   └── assignments/
-│       └── README.md
 └── CPSC251/
-    ├── README.md
     ├── notes-and-demos/
-    │   └── README.md
     └── assignments/
-        └── README.md
 ```
 
-Every course follows the same two-category structure:
+Every course uses the same two folders:
 
-- **Notes and Demos:** Personal study notes, illustrative code, independent programming practice, and concept demos.
-- **Assignments:** Assignment checklists, reflections, and materials approved for public sharing. Individual assignment folders can be created as needed.
+| Folder | Contents |
+| --- | --- |
+| `notes-and-demos/` | Concept notes in my own words, short example programs, and ungraded practice |
+| `assignments/` | One folder per assignment (`assignment-01/`, `assignment-02/`, …) with the source code and a README |
 
-Each course has a README to track its progress and relevant topics.
+## Conventions
 
-## Skills and Technologies
+- **Folders:** lowercase with hyphens, e.g. `assignment-01/`, `notes-and-demos/`
+- **Python files:** lowercase with underscores and a `.py` extension, e.g. `bar_chart.py`
+- **Notes:** Markdown files named by topic, e.g. `loops-notes.md`
+- **Branches:** one branch per piece of work, e.g. `assignment-02`, merged into `main` through a pull request
 
-- **Programming:** Python
+## Running the Code
+
+Programs target **Python 3**. Several CPSC 231 programs use the course's `SimpleGraphics` library, which is distributed on D2L and is not included here. To run one of them:
+
+1. Place `SimpleGraphics.py` in the same folder as the program.
+2. Run it from a terminal in that folder:
+
+   ```bash
+   python3 bar_chart.py
+   ```
+
+Programs that open a graphics window need to run on a computer with a display, not in a headless environment such as GitHub Codespaces.
+
+## Skills and Tools
+
+- **Language:** Python 3
 - **Tools:** Git, GitHub, VS Code, Python IDLE
-- **Concepts:** Programming fundamentals, debugging, algorithmic thinking, and problem-solving
-
-These sections will evolve throughout my studies.
+- **Concepts:** program design, input and output, variables and expressions, control flow, debugging
 
 ## Academic Integrity
 
-This repository is public and intended for personal learning documentation. I will follow University of Calgary academic integrity policies, instructor instructions, and copyright restrictions. Restricted assignment solutions, exams, and course material will not be posted without permission. Sensitive assignment work will be stored privately.
+Assignment code is published only after its due date, as a record of my own work. If you are currently taking one of these courses, do not copy or submit any code from this repository. Doing so violates the University of Calgary academic integrity policy.
 
 ## Author
 
-**Vincent Tran**  
-BSc in Computer Science  
-University of Calgary, Canada
-
-[GitHub profile](https://github.com/vincenttran-dev)
+**Vincent Tran**, BSc Computer Science, University of Calgary
+[GitHub](https://github.com/vincenttran-dev)

@@ -1,13 +1,18 @@
-# Assignments | CPSC 231
+# CPSC 231 Assignments
 
-This folder is for organizing assignment-related material for this course.
+| # | Title | Folder | Due |
+| --- | --- | --- | --- |
+| 1 | Chart Drawing | [`assignment-01/`](./assignment-01/) | Oct 1, 2026 |
 
-## Suggested structure
+## Folder Layout
 
-Create a directory for each assignment as needed, for example `assignment-01/`. Each directory can include a personal task checklist, permitted files, and a short reflection on the concepts practiced.
+Each assignment has its own folder:
 
-## Academic integrity
+```text
+assignment-NN/
+├── README.md          # overview, concepts practised, how to run
+├── <program>.py       # source code
+└── specification.pdf  # assignment specification
+```
 
-**This repository is public.** Do not publish active or restricted graded assignment solutions, exam questions, instructor-provided handouts, or other protected course materials without explicit permission. Keep any restricted code or submissions in a private location instead.
-
-Nothing in this placeholder README is an official course assignment or instruction.
+Code is added after the due date. Current CPSC 231 students must not copy or submit it.
