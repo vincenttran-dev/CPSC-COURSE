@@ -55,5 +55,24 @@ if chart_selection == 1:
 
 
 if chart_selection == 2:
-    print("Bar Chart")
+    bar_name = input("Enter the title of the chart: ")
+    num_bar = int(input("Enter the number of bars (2 to 6):"))
+    grid_interval = int(input("Enter the gridline interval (10 to 100): "))
+    y_axis_name = input("Enter the lable for the Y-axis:")
+    print("")
+
+
+    bar_names = []
+    bar_values = []
+
+    counter = 1
+    
+    while counter <= num_bar:
+
+        chart_bar_name = input(f"Lable bar {counter}:")
+        bar_names.append(chart_bar_name)
+        
+        chart_bar_value = int(input(f"Enter the value of bar {bar_names[counter-1]}:"))
+
+        counter = counter + 1
 
