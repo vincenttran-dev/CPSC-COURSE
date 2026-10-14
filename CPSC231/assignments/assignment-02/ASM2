@@ -3,55 +3,58 @@
 
 from SimpleGraphics import *
 
-#Colors
+# Colors
 
 color = ["red", "orange", "yellow", "green", "blue", "purple"]
 
-#Chart type selection
+# Chart type selection
 
 print("Chart creation menu: \n\t 1. Pie Chart \n\t 2. Bar chart")
 chart_selection = int(input("Select your chart type >> "))
 
 
-#Pie chart data collect
+# Pie chart data collect
 
 if chart_selection == 1:
     pie_name = input("Enter the title of the chart: ")
     num_sec = int(input("Enter the number of sectors (2 to 6): "))
     pie_total = int(input("Please enter the total amount of all sectors: "))
     pie_ratio = 360 / pie_total 
-    print("")
+ 
 
-    #Identify lable and value for sectors using counting loop
-
+    # Store sector names, values and angles
     sec_names = []
     sec_values = []
     sec_angles = []
 
+    # Track the total entered so far
     entered_total = 0
 
     counter = 1
-    
-    while counter <= num_sec :
-        
+
+    # Collect data for each sector
+    while counter <= num_sec:
+
         pie_sec_name = input(f"Label sector {counter}: ")
         sec_names.append(pie_sec_name)
 
+        # Ask for values except for the last sector
         if counter < num_sec:
             pie_sec_value = int(input(f"Enter the value of {sec_names[counter - 1]} sector: "))
             entered_total = entered_total + pie_sec_value
 
         else:
+            # Calculate the last sector from the remaining total
             pie_sec_value = pie_total - entered_total
 
+        # Store the value and its angle in degrees
         sec_values.append(pie_sec_value)
         sec_angles.append(sec_values[counter - 1] * pie_ratio)
 
-
-       
+        # Move to the next sector
         counter = counter + 1
 
-# DRAW PIE CHART
+# DRAW 
 
 
     # Circle centered in the 800 x 600 window
@@ -69,9 +72,9 @@ if chart_selection == 1:
     counter_pie = 0
 
     # Position and spacing of the legend
-    legend_x = 700
-    legend_step = pie_size / num_sec
-    square_size = 39
+    legend_x = 720
+    legend_step = pie_size / num_sec + 10
+    square_size = 50
 
     while counter_pie < num_sec:
         # Draw the sector clockwise
@@ -84,14 +87,14 @@ if chart_selection == 1:
         start_angle = start_angle - sec_angles[counter_pie]
 
         # Position of this legend row
-        legend_y = pie_y + counter_pie * legend_step
+        legend_y = pie_y + counter_pie * legend_step - 30
 
         # Sector name: font size 10, close to the square
         setColor("black")
         setFont("Arial", 10)
-        text(legend_x, legend_y + 22,sec_names[counter_pie], "s")
+        text(legend_x, legend_y + 25 ,sec_names[counter_pie], "s")
 
-        # Color square: 30% larger than the original
+        # Draw the color square for this sector
         setFill(color[counter_pie])
         rect(legend_x - square_size / 2,legend_y + 25,square_size, square_size)
 
@@ -109,32 +112,33 @@ if chart_selection == 1:
 
 if chart_selection == 2:
 
-#Collect 
-
+    # Collect the title, number of bars, grid interval and Y-axis label
     bar_name = input("Enter the title of the chart: ")
     num_bar = int(input("Enter the number of bars (2 to 6):"))
     grid_interval = int(input("Enter the gridline interval (10 to 100): "))
     y_axis_name = input("Enter the lable for the Y-axis:")
-    print("")
+   
 
-
+    # Store bar names and values
     bar_names = []
     bar_values = []
 
     counter = 1
 
-    
+    # Collect data for each bar
     while counter <= num_bar:
 
+        # Read and store the bar label
         chart_bar_name = input(f"Lable bar {counter}:")
         bar_names.append(chart_bar_name)
-        
-        chart_bar_value = int(input(f"Enter the value of bar {bar_names[counter-1]}:"))
+
+        # Read and store the bar value
+        chart_bar_value = int(input(f"Enter the value of bar {bar_names[counter - 1]}:"))
         bar_values.append(chart_bar_value)
 
+        # Move to the next bar
         counter = counter + 1
-
-    #DRAW
+# DRAW
 
     x_COR_1 = 100
     x_COR_2 = 700
@@ -149,11 +153,11 @@ if chart_selection == 2:
 
     # Chart title
     setFont("Arial", 14, "bold")
-    text((x_COR_1 + x_COR_2) / 2, 90, bar_name, "s")
+    text((x_COR_1 + x_COR_2) / 2, 70, bar_name, "s")
 
     # Y-axis label
     setFont("Arial", 12, "bold")
-    text(x_COR_1 - 30, 100 + y_VALUE / 2, y_axis_name)
+    text(x_COR_1 - 30, 100 + y_VALUE / 2, y_axis_name, "e")
 
     # Return to normal text
     setFont("Arial", 12)
@@ -193,7 +197,7 @@ if chart_selection == 2:
         # Value inside the top of the bar
         setColor("black")
         setFont("Arial", 12, "bold")
-        text(x + bar_width / 2, y + 15, f"{bar_values[counter_bar]}")
+        text(x + bar_width / 2, y + 13, f"{bar_values[counter_bar]}")
 
             # Text below the bar
         setFont("Arial", 12)
