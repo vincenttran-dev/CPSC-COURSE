@@ -69,6 +69,10 @@ Programs that open a graphics window need to run on a computer with a display, n
 - **Tools:** Git, GitHub, VS Code, Python IDLE
 - **Concepts:** program design, input and output, variables and expressions, control flow, debugging
 
+## Security note for learning demos
+
+Programs in `notes-and-demos/` are coursework experiments, not production-ready applications. In particular, the password-input example under `CPSC231/notes-and-demos/demo loging/` stores an entered password in a plain Python list and uses visible terminal input. **Do not use real passwords with this example** or reuse its approach for storing user credentials. A real authentication system should use a vetted password-hashing library and concealed password entry; never store raw passwords.
+
 ## Academic Integrity
 
 Assignment code is published only after its due date, as a record of my own work. If you are currently taking one of these courses, do not copy or submit any code from this repository. Doing so violates the University of Calgary academic integrity policy.
