@@ -286,6 +286,17 @@ Please enter 1, 2, or 3:
 
 ![Sample output for option 2 (blend horizontally)](./assets/figure-2b-combine-horizontally.png)
 
+## Sample Images
+
+GIF images for testing, kept in [`sample-images/`](./sample-images/). Each pair has identical dimensions, so the two images in a pair can be combined.
+
+| Pair | Files | Size |
+| --- | --- | --- |
+| Pencils and carnation (Figure 1) | `image1.gif`, `image2.gif` | 800 x 600 |
+| Flowers | `rainbow-flowers.gif`, `pink-bouquet.gif` | 720 x 480 |
+
+The D2L test files are named `Test1_a.gif`, `Test1_b.gif`, `Test2_a.gif`, and `Test2_b.gif`. Images from different groups cannot be combined because their sizes differ.
+
 ## Status
 
 Specification added October 26, 2026. No solution code is included. See the [assignment index](../README.md) and [course outline summary](../../course-outline.md).
