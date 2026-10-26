@@ -2,6 +2,8 @@
 
 Converted from the [original assignment PDF](./specification.pdf). The PDF remains the authoritative specification. Formatting has been adapted for GitHub; the figures and reward-point formulas are preserved as images.
 
+> **Before coding:** Read the [Assignment 3 preparation guide](./PREPARATION.md) for the recommended lecture files, PDF page ranges, instructor examples, and readiness checklist. The guide is supplementary study advice.
+
 It may become necessary to amend this specification at some point. You will be notified via D2L if that is the case.
 
 **Due Date: Thursday, Nov 5, 2026 @ 23:59**
