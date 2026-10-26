@@ -22,10 +22,10 @@ Introductory programming in Python 3: reading input, producing output, variables
 | --- | --- | --- | --- |
 | 1 | [Chart Drawing](./assignments/assignment-01/) | Input and output, variables, constants, an external graphics library | Oct 1, 2026 |
 | 2 | [Multiple Charts](./assignments/assignment-02/) | Conditionals, loops, pie and bar charts | Oct 15, 2026 at 23:59 |
-| 3 | [Assignment 3](./assignments/assignment-03/) | Awaiting detailed specification | Nov 5, 2026* |
+| 3 | [Image Manipulation](./assignments/assignment-03/) | Functions, nested loops, pixel-level image blending | Nov 5, 2026 at 23:59 |
 | 4 | [Assignment 4](./assignments/assignment-04/) | Awaiting detailed specification | Nov 26, 2026* |
 
-*The outline prints 2006 for assignment dates despite being a Fall 2026 document. Dates for Assignments 3 and 4 use a provisional interpretation of 2026; confirm in D2L.
+*The outline prints 2006 for assignment dates despite being a Fall 2026 document. The date for Assignment 4 uses a provisional interpretation of 2026; confirm in D2L. Assignment 3's specification confirms Nov 5, 2026 at 23:59.
 
 ## Topics
 
